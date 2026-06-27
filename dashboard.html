@@ -252,12 +252,16 @@ if(user){
         }
         
         // --- আপনার নির্দেশ অনুযায়ী পরিবর্তিত অংশ ---
+        await updateDoc(userRef, {
+            totalEarnings: finalTotal
+        });
+        // --- পরিবর্তনের সমাপ্তি ---
+
         document.getElementById("userBalance").textContent =
         "₹" + (data.balance || 0);
 
         document.getElementById("totalEarnings").textContent =
         "₹" + finalTotal;
-        // --- পরিবর্তনের সমাপ্তি ---
 
         document.getElementById("totalWithdrawal").textContent = "₹" + (data.totalWithdrawal || 0);
         document.getElementById("earningHistory").textContent = history;
