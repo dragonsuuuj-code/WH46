@@ -1,0 +1,15 @@
+{
+  "name": "WH46 Earning Platform",
+  "short_name": "WH46",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "Generated Image June 07, 2026 - 6_41PM.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
