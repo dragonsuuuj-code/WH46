@@ -7,9 +7,10 @@
   "theme_color": "#2563eb",
   "icons": [
     {
-      "src": "Generated Image June 07, 2026 - 6_41PM.png",
+      "src": "icon.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }
